@@ -7,11 +7,11 @@ Bundle-Version: 7.1.0.qualifier
 Bundle-Vendor: INGEINT <https://www.ingeint.com>
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-11
-Require-Bundle: org.adempiere.base;bundle-version="7.1.0",
- org.adempiere.plugin.utils;bundle-version="7.1.0",
- org.adempiere.base.process;bundle-version="7.1.0",
- org.adempiere.ui.zk;bundle-version="7.1.0",
- zk;bundle-version="8.0.2"
+Require-Bundle: org.adempiere.base,
+ org.adempiere.plugin.utils,
+ org.adempiere.base.process,
+ org.adempiere.ui.zk,
+ zk
 Service-Component: OSGI-INF/ve.net.dcs.component.HTModelFactory.xml, OSGI-INF/com.ingeint.component.ProcessFactory.xml, OSGI-INF/com.ingeint.component.ModelFactory.xml,
  OSGI-INF/com.ingeint.component.EventManager.xml, OSGI-INF/com.ingeint.component.CalloutFactory.xml
 Bundle-Activator: org.adempiere.plugin.utils.Incremental2PackActivator
